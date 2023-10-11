@@ -766,6 +766,14 @@ body.nav-active { overflow: hidden; }
   pointer-events: all;
 }
 
+/* Adjust logo size for mobile screens in the header */
+@media (max-width: 768px) {
+  .logo {
+    width: 100px; /* Adjust as needed */
+  }
+}
+
+
 
 
 
@@ -900,6 +908,14 @@ body.nav-active { overflow: hidden; }
 .hero .slider-item.active .hero-text { animation-delay: 1.5s; }
 
 .hero .slider-item.active .btn { animation-delay: 2s; }
+
+/* Adjust hero text for mobile screens in the hero section */
+@media (max-width: 768px) {
+  .hero-text {
+    font-size: 18px; /* Adjust as needed */
+  }
+}
+
 
 
 
