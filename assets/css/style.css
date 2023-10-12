@@ -1357,6 +1357,15 @@ textarea.input-field {
   max-width: max-content;
   margin-inline: auto;
   margin-block-end: 40px;
+  /* Add this CSS to center the logo on mobile devices */
+@media (max-width: 767px) {
+  .footer-brand .logo {
+    display: block; /* Make the logo a block element for centering */
+    margin: 0 auto; /* Center the logo horizontally */
+    text-align: center; /* Center the logo text (if any) */
+  }
+}
+
 }
 
 .footer-brand :is(.body-4, .label-1) {
